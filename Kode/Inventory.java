@@ -22,18 +22,15 @@ public class Inventory {
 
     if (valg == 1){
         item.add("Fyrtøjet");
+        System.out.println("Du har nu samlet " + item + " op!");
     }
-        System.out.println("Du har valgt at samle " + item + " op!");
+        else {
+        System.out.println("Du valgte ikke at samle noget op.");
     }
-    public void guld(){
-        System.out.println("Her i rummet finder du en guldbar");
-        System.out.println("Tast 1: for at samle guldet op");
-        valg = scan.nextInt();
-
-        if (valg == 1){
-            item.add("Guldbar");
-        }
-        System.out.println("Du har valgt at samle " + item + " op!");
+    }
+    public void guld() {
+            item.add("Guldmønter");
+            System.out.println("Du har nu samlet " + item + " op!");
     }
         //Denne metode holder styr på Penge.
         public void money(){
