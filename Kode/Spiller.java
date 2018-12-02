@@ -59,6 +59,7 @@ public class Spiller
          setKøn("Kvinde");
          System.out.println("Dit køn er: " + getKøn());
       }
+
    }
 
 }
