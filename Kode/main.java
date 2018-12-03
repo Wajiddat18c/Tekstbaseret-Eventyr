@@ -16,8 +16,8 @@ public class main {
         Byen byen = new Byen();
         Tree tree = new Tree();
 
-        //menu.printForhistoie();
-        //tree.printTree();
+        menu.printForhistoie();
+        tree.printTree();
         byen.printByen();
 
     }

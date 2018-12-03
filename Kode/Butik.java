@@ -1,4 +1,4 @@
-public class Butik {
+public class Butik extends Inventory {
     private String guldsværd;
     private String hat;
     private String jakkesæt;

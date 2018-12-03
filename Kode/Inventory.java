@@ -63,19 +63,17 @@ public class Inventory {
         }
             //Denne metode viser alle ting i din inventory.
         public void showInv(){
-            System.out.println("tast 9 for at åbne din takse");
+            System.out.println("Tast 9 for at åbne din takse");
             valg = scan.nextInt();
             if (valg == 9) {
 
-                System.out.println("Her er hvad der ligger i din Inventory");
+                System.out.println("Her er hvad der ligger i din Inventory:");
                 for (String str : item) {
                     System.out.println("Item: " + str);
 
                 }
-                for (int i : money) {
-                    System.out.println("Penge: " + i);
-                }
             }
+
         }
 
 }
