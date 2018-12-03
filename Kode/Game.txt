@@ -1,8 +1,76 @@
-﻿Hej, Velkommen til dette spil! Indtast venligst dit navn her!.
-Du står nu ude i den kolde verden helt alene.
-Tast 1 for at gå til højre, tast 2 for at gå til venstre?
-Du valgte Højre. Her Ser du et hus.
-Du valgte Venstre. Her Ser du en Pizzaria.
-Vil du gå ind i pizzariaet? - Tast ja eller nej.
-Du valgte at gå ind i Pizzariaet.
-Her Møder du:
+Du har i flere år, sommer og vinter, vandret rundt i verden. Du har kun det tøj,
+du går i, en vandrestav, en rygsæk og nogle ganske få penge.
+Sensommerdagen er ved at gå på hæld. Solen går snart ned, men du er tæt på landsbyen,
+hvor nogle af dine venner bor. Her regner du med at få en hyggelig aften og en god nats søvn,
+før du fortsætter din rejse.
+Ganske rigtigt. Efter en varm velkomst, et hyggeligt (og meget lækkert) måltid sætter I jer til rette i stuen.
+Dine venner vil jo gerne hører nyt fra den store verden og hvad du selv har oplevet.
+Det er langsomt blevet mørkere og i skæret af lyset fra en tændt pejs, bliver du overtalt til at fortælle om dengang...
+
+Jeg befinder i Købehavn i 1850, det er en lun sommerdag, solen skinner fuglene pipper,
+og man kan næsten mærke danmarks varme idyelighed.
+Hen ad landevejen kommer jeg gående, jeg er en frisk ung soldat, lige hjemvendt fra krig,
+men masser af historier og ting at fortællle.
+P� min færd møder jeg en skillevej, flere veje, hvor jeg har muligheder for at tage forskellige steder:
+Jeg kan gå imod Nord, Øst eller Vest, men ikke syd, der er vejen lukket for mig.
+
+
+
+TR�ET:
+
+På min færd, mod vest, møder jeg en heks, en fæl heks, der lugter af svovl og sved, så fæl, at man dårligt kan trække vejret i nærheden af hende.
+Heksen siger: "God aften, soldat! Hvor du har en pæn sabel og et stort tornyster, du er en rigtig soldat! Nu skal du få så mange penge, du vil eje!"
+Jeg siger: "Tak skal du have, din gamle heks!".
+"Kan du se det store træ?" sagde heksen, og pegede på et træ, der stod ved siden af dem. "Det er ganske hult inden i! Der skal du krybe op i toppen, så ser du et hul, som du kan lade dig glide igennem og komme dybt i træet! Jeg skal binde dig en strikke om livet, for at jeg kan hejse dig op igen, når du råber på mig!"
+Når du kommer ned til første rum, vil du se et stort rum, med en kiste. Oven på kisten sidder der en hund, med øjne så store som tekkopper, en ham skal du bare flytte ned på mit forklæde, så sker der ikke noget. Og tag derved så mange kobbermønter du vil have.
+Når du kommer ned til det næste rum, vil du se et stort rum, med en kiste. Oven på kisten sidder der en hund, med øjne så store som møllehjul, men ham skal du bare flytte ned på mit forklæde, så sker der ikke noget. Og tag derved så mange sølvmønter du vil have.
+Men tag dig i agt, for hunden med øjne så store som møllehjul, er IKKE til at spøge med. Og den vil spise dig -Wajid 2018
+Når du kommer ned til det sidste rum, vil du se et stort rum, med en kiste. Oven på kisten sidder der en hund, med øjne så store som rundetårn, men ham skal du bare flytte ned på mit forklæde, så sker der ikke noget. Og tag derved så mange guldmønter du vil have.
+Jeg bevæger mig ned i træet, og st�r i total mørke. Jeg kan intet se, der må være et eller andet i min rygsæk, som jeg kan bruge til at få lys.
+Jeg kigger i jeg rygsæk, og jeg finder en vandrestav, en fakkel og en lighter. Jeg kan kombinere nogle af disse ting.
+Jeg kan nu se, at du er i det første rum. Og den første kiste, med tekop hunden, står jeg nu foran.
+Jeg flytter hunden til forklædet, åbner kisten, og tager en håndfuld kobbermønter.
+Jeg bevæger mig videre til den næste rum, og den næste kisten, møllehjul hunden, står jeg nu foran.
+Jeg flytter hunden til forklædet, åbner kisten, og tager en håndfuld sølvmønter.
+Jeg bevæger mig videre til det sidste rum, og den sidste kiste, med rundetårn hunden, står jeg nu foran.
+Jeg flytter hunden til forklædet, åbner kisten, og tager en håndfuld guldmønter.
+Jeg ser fyrtøjet ligger ved siden af kisten, tager det med og råber til heksen.
+Jeg r�ber til heksen: tr�k mig op din gamle krage, jeg har fyrt�jet med. S� kommer jeg op ad tr�et, og undrer mig: "Hvad skal du bruge fyrt�jet til?" Heksen svarer "Det rager ikke dig gi' mig det s�!"
+S� siger jeg til hende, at hvis hun ikke fort�ller mig det, s� hugger jeg hovedet, men heksen n�gtede stadig. S� jeg huggede hovedet af hende, og drog videre p� min f�rd
+
+(Her skal spillere have mulighed for at g� til slottet, byen og landevejen. Hvis spillere igen tager til tr�et fra landevejen skal der bare v�re ingen dialog(hvis vi kan).
+
+
+
+KROEN:
+
+(N�r helten er ankommet til kroen): 
+Jeg drog ind mod byen, og da jeg kom til kroen, t�nkte jeg "sikke et fint sted, her vil jeg tilbringe natten". S� jeg ringede p� klokken, fik fat i tjeneren, og bestilte det fineste v�relse.
+Tjeneren forklarede mig, at det ville koste 5 guldm�nter at tilbringe natten her, og jeg undrede mig, om det var noget jeg kunne finde p�.
+(Hvis spilleren trykke 1, s� bruger spilleren de 5 guldm�nter og kan tilbringe natten, n�r spilleren har k�bt nye kl�der. Hvis man trykker s�, s� forlader man kroen).
+
+
+BUTIKKEN:
+
+(N�r helten er ankommet til butikken):
+Jeg drog ind mod byen, og der drog jeg videre mod en butik, hvor jeg ville kunne f� mig nogle finere kl�der. 
+S�lger forklarede mig, at det ville koste 5 guldm�nter at k�be nye kl�der, og jeg undrede mig, om det var noget jeg kunne finde p�.
+(Hvis spilleren trykke 1, s� bruger spilleren de 5 guldm�nter og kl�der vil blive tilf�jet til ens inventory, samtidig med, at der beskrives, at man tager det p� 
+hvis man trykker 2, s� forlader man butikken.)
+
+
+HVIS MAN IKKE HAR DE N�DVENDIGE TING I SIT INVENTORY:
+(Alle disse beskeder under den her er undtagelser, hvis man som spiller ikke har nok guldm�nter, eller ikke kan komme videre grundet andre ting.):
+
+Jeg kommer til kroen, hvor en tjener står klar til at tage imod mig. Et ophold koster 5 guldmønter, men jeg finder ud af, at jeg ikke har nok guldmønter.
+Jeg forlader tjener, men finder ud af, at jeg kun kan gå imod syd.
+
+Jeg kommer hen til vagten, og vagten siger "Der er ikke adgang for din slags", jeg finder så ud, at jeg ikke kan komme videre herfra.
+Jeg forlader vagten, og finder ud af, at jeg kun kan gå i mod øst.
+
+Jeg kommer til butikken for at købe klæder, sælgeren siger "det koster 5 guldmønter". Jeg kigger i min rygsæk, og finder ud af, at jeg ikke har nok mønter.
+Jeg forlader sælger, og finder ud af, at jeg kun kan gå i mod vest.
+
+Jeg står nu ved landevejen, og jeg kan ikke længere gå syd. Men de andre retninger er åbne for mig.
+
+
