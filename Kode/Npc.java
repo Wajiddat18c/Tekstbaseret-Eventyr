@@ -82,6 +82,7 @@ public class Npc {
         Npc[] hund1 = new Npc[1];
         hund1[0] = new Npc("Tekoppen", "Hund", "Adlyder fyrtøjet");
         System.out.println(Arrays.toString(hund1));
+        System.out.println(Arrays.toString(hund1));
     }
     public void printHund2(){
         Npc[] hund2 = new Npc[1];
@@ -100,7 +101,7 @@ public class Npc {
     }
     public void printMedarbejder() {
         Npc[] medarbejder = new Npc[1];
-        medarbejder[0] = new Npc("Jon", "Menneske", "Sælger Tæj");
+        medarbejder[0] = new Npc("Jon", "Menneske", "Butiks ejer");
         System.out.println(Arrays.toString(medarbejder));
     }
 

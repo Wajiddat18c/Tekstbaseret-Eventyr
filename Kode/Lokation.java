@@ -6,13 +6,15 @@ public class Lokation{
     String name = "";
     int valg = 0;
     boolean koer = true;
+    boolean done = false;
+    String stien = "Du står nu midt i en skillevej, hvor du har mulighed for at vælge fælgene retinger:";
 
     Infomation fil = new Infomation();
     InputHandler input = new InputHandler();
     Inventory inventory = new Inventory();
-    Currency currency = new Currency();
     Npc npc = new Npc();
     Spiller spiller = new Spiller();
+    Butik butik = new Butik();
 
 
     public void printForhistoie() throws IOException {
@@ -42,6 +44,8 @@ public class Lokation{
     }
         //PrintTree metoden har vi Nedarvet fra Tree klassen.
     public void printTree() throws IOException {
+    }
+    public void printByen() throws IOException {
     }
 }
 

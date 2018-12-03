@@ -2,9 +2,10 @@ import java.io.IOException;
 
 public class Tree extends Lokation{
 
-
+    //Override.
     public void printTree() throws IOException {
         while (koer) {
+            System.out.println(stien);
             fil.historie(14);
             System.out.println("Tast 1 for Nord.\nTast 2 for Øst.\nTast 3 for Vest.");
 
@@ -80,13 +81,17 @@ public class Tree extends Lokation{
                         fil.historie(39);
                         inventory.guld();
                         inventory.fyrtoej();
+                        done = true;
                     } else if (valg == 2) {
                         System.out.println("Du Blev spidst af Rundetårn Hunde!");
                         break;
 
                     }
             }
-
+            if (done == true){
+                break;
+            }
+            else {
             System.out.println("vil du genstarte? \nTast 1: Ja\nTast 2: Nej");
             int genstart = input.readInt();
             if (genstart == 1) {
@@ -94,6 +99,8 @@ public class Tree extends Lokation{
             } else if (genstart == 2) {
                 koer = false;
                 System.out.println("Du har tabt");
+                System.exit(0);
+            }
 
             }
         }

@@ -13,8 +13,12 @@ public class main {
     public static void main(String[] args) throws IOException {
 
         Lokation menu = new Lokation();
+        Byen byen = new Byen();
         Tree tree = new Tree();
-        menu.printForhistoie();
-        tree.printTree();
+
+        //menu.printForhistoie();
+        //tree.printTree();
+        byen.printByen();
+
     }
 }
