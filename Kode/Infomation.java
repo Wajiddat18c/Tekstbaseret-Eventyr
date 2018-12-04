@@ -2,6 +2,10 @@ import java.io.IOException;
 import java.nio.file.*;
 
 public class Infomation {
+    /**
+     * Denne metode går ind i vores txt fil og læser 1 specefikt linje.
+     *Så bruger vi println til at udskrive den linje.
+     */
 
     public Infomation(){}
 

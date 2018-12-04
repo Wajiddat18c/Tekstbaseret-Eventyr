@@ -108,6 +108,7 @@ public class Byen extends Lokation {
                     }
                         inventory.showInv();
                         System.out.println("Du er nu klar til at tage til slottet!");
+                        System.out.println("Tak fordi du spillede vores demo version af Fyrtøjet.");
                         koer = false;
                         break;
 
