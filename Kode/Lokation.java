@@ -7,6 +7,7 @@ public class Lokation{
     int valg = 0;
     boolean koer = true;
     boolean done = false;
+    boolean shop = true;
     String stien = "Du står nu midt i en skillevej, hvor du har mulighed for at vælge fælgene retinger:";
 
     Infomation fil = new Infomation();
