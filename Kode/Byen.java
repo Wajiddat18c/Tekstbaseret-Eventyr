@@ -1,11 +1,21 @@
+/**
+ * @author Wajid Ahmad
+ */
 import java.io.IOException;
 
 public class Byen extends Lokation {
     private int penge = 20;
     private int tab = penge;
 
+    /**
+     * Denne printByen bliver brugt til at printe historien
+     * Vi overrider denne metode fra Lokationsklassen via extend
+     *
+     * @throws IOException
+     */
     public void printByen() throws IOException {
         koer = true;
+        //Laver en whileløkke der kører indtil "koer" bliver sat til false.
         while (koer){
 
             System.out.println(stien);
@@ -14,27 +24,27 @@ public class Byen extends Lokation {
             input.readString();
             System.out.println("Tast 1 for Nord.\nTast 2 for Øst.\nDu kan ikke tage tilbage til Vest");
 
+            //Laver switch statement som læser vores Scanner fra inputhandler klassen.
+
             switch (input.readInt()){
                 case 1:
-                    System.out.println("Du bevæger dig mod Nord");
-                    System.out.println("Du har valgt at tage hen til Byen");
-                    fil.historie(54);
-                    fil.historie(55);
+                    System.out.println("Jeg bevæger dig mod Nord");
+                    System.out.println("Jeg vælger at tage hen til Byen\n" +
+                            "Her ser du en Kro og en Butik.");
+                    fil.historie(58);
                     System.out.println("Tast 1 for at gå ind i Kroen\nTast 2 for at gå ind i Butikken");
                     valg = input.readInt();
                     if (valg == 1){
-                        for (int i = 57; i <= 59 ; i++) {
-                            fil.historie(i);
-                        }
+
                         System.out.println("Vil du tilbringe Natten i Kroen?");
                         System.out.println("Tast 1: Ja\nTast 2: Nej");
                         valg = input.readInt();
                         if (valg == 1) {
-                            System.out.println(inventory.spendMoney(penge, 10));
+                            System.out.println(inventory.spendMoney(penge, 5));
                             penge += inventory.getTotal();
                         } else if (valg == 2) {
                             System.out.println("Du har ikke valgt at tilbringe aften på kroen\n" +
-                                    "og derfor belv du nød til at tilbringe aftenen ude på gaden\nhvor du blev frarøvet: " + (tab = (int) (Math.random() * 20) + 1) + " Guldmønter");
+                                    "og derfor blev du nød til at tilbringe natten ude på gaden\nhvor du blev frarøvet: " + (tab = (int) (Math.random() * 20) + 1) + " Guldmønter");
                             System.out.println("Nu har du kun: " + (penge - tab) + " tilbage");
                         }
                         }
@@ -116,7 +126,7 @@ public class Byen extends Lokation {
 
                 case 2:
                     System.out.println("Du bevæger dig mod Øst");
-                    System.out.println("Vagterne ved slottet dræber dig\nVælg vendlist en anden vej!");
+                    System.out.println("Vagterne ved slottet smider dig ud\nVælg vendlist en anden vej!");
                     break;
 
             }

@@ -1,3 +1,6 @@
+/**
+ * @author Wajid Ahamd
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,6 +28,11 @@ public class Inventory {
         Scanner scan = new Scanner(System.in);
 
         //Denne metode holder styr på items.
+
+    /**
+     * Denne metode giver mulighed for at tilføje items til vores
+     * arraylist
+     */
         public void fyrtoej(){
         System.out.println("Her i rummet finder du et fyrtæj");
         System.out.println("Tast 1: for at samle fyrtøjet op");
@@ -38,11 +46,22 @@ public class Inventory {
         System.out.println("Du valgte ikke at samle noget op.");
     }
     }
+    /**
+     * Denne metode giver mulighed for at tilføje penge til vores
+     * arraylist
+     */
     public void guld() {
             this.money.add(20);
             System.out.println("Du har nu fået " + this.money + " Guldmønter!");
     }
 
+    /**
+     * Denne metode tager i 2 parameter og returner Int.
+     * metoden bliver brugt til at betale penge i vores program.
+     * @param amount
+     * @param fee
+     * @return
+     */
         public int spendMoney(int amount, int fee){
 
             System.out.println("Du har ligenu " + amount + " Guldmønter");
@@ -61,7 +80,12 @@ public class Inventory {
             System.out.println("Antal Penge tilbage: ");
             return getTotal();
         }
-            //Denne metode viser alle ting i din inventory.
+
+    /**
+     * Denne motede ShowInv, kørere igeenm en arraylist og viser de ting vi sætter ind
+     * i arraylisten.
+     */
+    //Denne metode viser alle ting i din inventory.
         public void showInv(){
             System.out.println("Tast 3 for at åbne din takse");
             valg = scan.nextInt();
@@ -78,30 +102,3 @@ public class Inventory {
 
 }
 
-/*
-//Denne metode holder styr på Penge.
-        public void money(){
-            System.out.println("Vil du åbne kisten? ");
-            System.out.println("Tast ja eller nej.");
-            oben = input.readString();
-            if (oben.equals("ja")){
-                int penge = (int)(Math.random()*20)+5;
-                money.add(penge);
-                System.out.println("Du fandt " + penge +"Kr!");
-            }
-            else {
-                System.out.println("Du valgte at ikke åbne kisten!");
-            }
-
-
-            public void spendMoney(){
-            this.money.add(20);
-            System.out.println("Du har i din pung: " + this.money + " Guldmønter");
-            System.out.println("Vil bruge dine penge på her?\nTast 1 for JA\nTast 2 for Nej");
-            valg = scan.nextInt();
-            if(valg == 1){
-                this.money.remove(5);
-                System.out.println("Du valgte at bruge 5 Guldmønter");
-                System.out.println("Nu har du kun" + money + " tilbage");
-            }
- */

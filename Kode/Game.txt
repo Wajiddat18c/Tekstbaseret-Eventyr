@@ -1,8 +1,0 @@
-﻿Hej, Velkommen til dette spil! Indtast venligst dit navn her!.
-Du står nu ude i den kolde verden helt alene.
-Tast 1 for at gå til højre, tast 2 for at gå til venstre?
-Du valgte Højre. Her Ser du et hus.
-Du valgte Venstre. Her Ser du en Pizzaria.
-Vil du gå ind i pizzariaet? - Tast ja eller nej.
-Du valgte at gå ind i Pizzariaet.
-Her Møder du:

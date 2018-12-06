@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"<Unnamed>","l":"Butik"},{"p":"<Unnamed>","l":"Byen"},{"p":"<Unnamed>","l":"Infomation"},{"p":"<Unnamed>","l":"InputHandler"},{"p":"<Unnamed>","l":"Inventory"},{"p":"<Unnamed>","l":"Lokation"},{"p":"<Unnamed>","l":"main"},{"p":"<Unnamed>","l":"Npc"},{"p":"<Unnamed>","l":"Spiller"},{"p":"<Unnamed>","l":"Tree"}]

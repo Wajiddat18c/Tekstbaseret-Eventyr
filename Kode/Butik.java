@@ -1,3 +1,6 @@
+/**
+ * @author Ali Al-Sharefi
+ */
 public class Butik {
     private String guldsværd;
     private String hat;
@@ -19,6 +22,7 @@ public class Butik {
         this.jakkesæt=jakkesæt;
         this.cykkel=cykkel;
     }
+    //getters og setters
     public String getGuldsværd() {
         return guldsværd;
     }

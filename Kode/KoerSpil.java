@@ -1,6 +1,11 @@
+/**
+ * @author Ali Al-Sharefi
+ * @author Thomas Alder Broe
+ * @author Wajid Ahmad
+ */
 import java.io.IOException;
 
-public class main {
+public class KoerSpil {
 
     /**
      * This is the main method which makes use of print method.
@@ -12,11 +17,11 @@ public class main {
      */
     public static void main(String[] args) throws IOException {
 
-        Lokation menu = new Lokation();
+        Lokation lokation = new Lokation();
         Byen byen = new Byen();
         Tree tree = new Tree();
 
-        //menu.printForhistoie();
+        //lokation.printForhistoie();
         //tree.printTree();
         byen.printByen();
 

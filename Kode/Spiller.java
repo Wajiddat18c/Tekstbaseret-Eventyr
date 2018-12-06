@@ -1,3 +1,6 @@
+/**
+ * @author Ali Al-Sharefi
+ */
 public class Spiller
 {
    private String navn;
@@ -36,12 +39,20 @@ public class Spiller
          return this.race;
       }
 
+    /**
+     * Denne Metode laver navn via getteres og setteres.
+     *
+     */
    public void name(){
       System.out.print("Skriv dit navn: ");
       setNavn(scan.readString());
       System.out.println("Dit navn er: " + getNavn());
    }
 
+    /**
+     * Denne emtode gender, giver brugren mulighed for at vælge køn
+     * via scanner/getters/setters
+     */
    public void gender() {
       System.out.println("Vælg køn.");
       int valg = 0;
