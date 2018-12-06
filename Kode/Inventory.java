@@ -34,16 +34,16 @@ public class Inventory {
      * arraylist
      */
         public void fyrtoej(){
-        System.out.println("Her i rummet finder du et fyrtæj");
+        System.out.println("Her i rummet finder Jeg et fyrtæj");
         System.out.println("Tast 1: for at samle fyrtøjet op");
         valg = scan.nextInt();
 
     if (valg == 1){
         item.add("Fyrtøjet");
-        System.out.println("Du har nu samlet " + item + " op!");
+        System.out.println("Jeg har nu samlet " + item + " op!");
     }
         else {
-        System.out.println("Du valgte ikke at samle noget op.");
+        System.out.println("Jeg valgte ikke at samle noget op.");
     }
     }
     /**
@@ -52,7 +52,7 @@ public class Inventory {
      */
     public void guld() {
             this.money.add(20);
-            System.out.println("Du har nu fået " + this.money + " Guldmønter!");
+            System.out.println("Jeg har nu fået " + this.money + " Guldmønter!");
     }
 
     /**
@@ -64,7 +64,7 @@ public class Inventory {
      */
         public int spendMoney(int amount, int fee){
 
-            System.out.println("Du har ligenu " + amount + " Guldmønter");
+            System.out.println("Jeg har lige nu " + amount + " Guldmønter");
             System.out.println("Det koster: " + fee + " Guldmønter");
             System.out.println("Vil bruge dine guldmønter her?\nTast 1 for Ja\nTast 2 for Nej");
             valg = scan.nextInt();
@@ -91,7 +91,7 @@ public class Inventory {
             valg = scan.nextInt();
             if (valg == 3) {
 
-                System.out.println("Her er hvad der ligger i din Inventory:");
+                System.out.println("Her er hvad der ligger i din taske:");
                 for (String str : item) {
                     System.out.println("Item: " + str);
 

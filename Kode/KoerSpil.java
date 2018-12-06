@@ -21,8 +21,8 @@ public class KoerSpil {
         Byen byen = new Byen();
         Tree tree = new Tree();
 
-        //lokation.printForhistoie();
-        //tree.printTree();
+        lokation.printForhistoie();
+        tree.printTree();
         byen.printByen();
 
     }

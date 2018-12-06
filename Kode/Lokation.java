@@ -11,7 +11,7 @@ public class Lokation{
     boolean koer = true;
     boolean done = false;
     boolean shop = true;
-    String stien = "Du står nu midt i en skillevej, hvor du har mulighed for at vælge fælgene retinger:";
+    String stien = "Jeg står nu midt på en skillevej, hvor jeg har mulighed for at vælge følgene retninger:";
 
     Infomation fil = new Infomation();
     InputHandler input = new InputHandler();
