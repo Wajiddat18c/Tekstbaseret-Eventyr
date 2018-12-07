@@ -2,17 +2,17 @@
  * @author Wajid Ahmad
  */
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class Lokation{
+    //Variabler
     String name = "";
     int valg = 0;
     boolean koer = true;
-    boolean done = false;
+    boolean endGame = false;
     boolean shop = true;
     String stien = "Jeg står nu midt på en skillevej, hvor jeg har mulighed for at vælge følgene retninger:";
 
+    //Intitalisereing af objekter
     Infomation fil = new Infomation();
     InputHandler input = new InputHandler();
     Inventory inventory = new Inventory();
@@ -21,7 +21,7 @@ public class Lokation{
     Butik butik = new Butik();
 
     /**
-     * Denne printForhistorie metode printer forhostioen ud via en Forloop
+     * Denne printForhistorie metode printer forhistorien ud via en for loop
      *
      * @throws IOException
      */
@@ -44,7 +44,7 @@ public class Lokation{
         System.out.println("|          Spille Fyrtøjet         |");
         System.out.println("|                                  |");
         System.out.println("------------------------------------");
-        input.readString();
+               input.readString();
 
         for (int i = 9; i < 14; i++) {
             fil.historie(i);

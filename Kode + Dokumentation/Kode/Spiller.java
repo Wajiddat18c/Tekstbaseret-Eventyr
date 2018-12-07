@@ -41,6 +41,7 @@ public class Spiller
 
     /**
      * Denne Metode laver navn via getteres og setteres.
+     * Denne metode kalder på Readstring fra InputHandler klassen.
      *
      */
    public void name(){
@@ -50,8 +51,8 @@ public class Spiller
    }
 
     /**
-     * Denne emtode gender, giver brugren mulighed for at vælge køn
-     * via scanner/getters/setters
+     * Denne metode gender, giver brugren mulighed for at vælge køn
+     * via scanner/getters/setters og if/else sætninger.
      */
    public void gender() {
       System.out.println("Vælg køn.");

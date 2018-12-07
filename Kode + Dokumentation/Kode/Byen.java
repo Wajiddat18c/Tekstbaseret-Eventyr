@@ -36,19 +36,20 @@ public class Byen extends Lokation {
                     valg = input.readInt();
                     if (valg == 1){
 
-                        System.out.println("Vil du tilbringe natten i Kroen?");
-                        System.out.println("Tast 1: Ja\nTast 2: Nej");
-                        valg = input.readInt();
-                        if (valg == 1) {
-                            System.out.println(inventory.spendMoney(penge, 5));
-                            penge += inventory.getTotal();
-                        } else if (valg == 2) {
-                            System.out.println("Du har ikke valgt at tilbringe aften på kroen\n" +
-                                    "og derfor blev du nød til at tilbringe natten ude på gaden\n" +
-                                    "hvor du blev røvet: " + (tab = (int) (Math.random() * 20) + 1) + " Guldmønter");
-                            System.out.println("Nu har du kun: " + (penge - tab) + " tilbage");
-                        }
-                        }
+                            System.out.println("Vil du tilbringe natten i Kroen?");
+                            System.out.println("Tast 1: Ja\nTast 2: Nej");
+                            valg = input.readInt();
+                            if (valg == 1) {
+                                System.out.println(inventory.spendMoney(penge, 5));
+                                penge += inventory.getTotal(); //Lægger penge sammen med Total.
+                            } else if (valg == 2) {
+                                System.out.println("Du har ikke valgt at tilbringe aften på kroen\n" +
+                                        "og derfor blev du nød til at tilbringe natten ude på gaden\n" +
+                                        "hvor du blev røvet: " + (tab = (int) (Math.random() * 20) + 1) + " Guldmønter");
+                                System.out.println("Nu har du kun: " + (penge - tab) + " tilbage"); //Trækker tab fra penge(total)
+
+                            }
+                            }
 
                     else if (valg == 2){
                         System.out.println("Butikken er lukket om natten!");

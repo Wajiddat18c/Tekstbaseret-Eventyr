@@ -14,7 +14,6 @@ public class Infomation {
      * @throws IOException
      */
 
-
     public static void historie(int linje)throws IOException {
         String read = Files.readAllLines(Paths.get("Game.txt")).get(linje);
         System.out.println(read);

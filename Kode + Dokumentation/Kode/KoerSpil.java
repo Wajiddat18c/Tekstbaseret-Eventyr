@@ -17,9 +17,13 @@ public class KoerSpil {
      */
     public static void main(String[] args) throws IOException {
 
+        //Intitalisereing af objekter
+
         Lokation lokation = new Lokation();
         Byen byen = new Byen();
         Tree tree = new Tree();
+
+        //printer metoder
 
         lokation.printForhistoie();
         tree.printTree();

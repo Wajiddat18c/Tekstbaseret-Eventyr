@@ -24,11 +24,11 @@ public class Tree extends Lokation{
             switch (input.readInt()) {
                 case 1:
                     System.out.println("Jeg bevæger mig mod Nord");
-                    System.out.println("Jeg kan ikke tage til byen uden Penge!\nVælg vendlist en anden vej!");
+                    System.out.println("Jeg kan ikke tage til byen uden Penge!\nVælg venligst en anden vej!");
                     break;
                 case 2:
                     System.out.println("Jeg bevæger mig mod Øst");
-                    System.out.println("Vagterne ved slottet slog mig ihjel\nVælg vendlist en anden vej!");
+                    System.out.println("Vagterne tillader ingen adgang for fremmede\nVælg venligst en anden vej!");
                     break;
                 case 3:
                     System.out.println("Jeg bevæger mig mod Vest");
@@ -53,6 +53,7 @@ public class Tree extends Lokation{
                     System.out.println("Vil du tænde faklen fra din taske?");
                     System.out.println("Tast 1: Ja\nTast 2: nej");
                     valg = input.readInt();
+
                     if (valg == 1) {
                         fil.historie(36);
                     } else if (valg == 2) {
@@ -64,18 +65,22 @@ public class Tree extends Lokation{
                     System.out.println("Vil du flyte tekop hunden og tage indeholdet af kisten?");
                     System.out.println("Tast 1: Ja\nTast 2: nej");
                     valg = input.readInt();
+
                     if (valg == 1) {
                         fil.historie(37);
                     } else if (valg == 2) {
                         System.out.println("Jeg Blev spidst af tekop Hunden!");
                         break;
                     }
+
+
                     fil.historie(39);
                     System.out.println("Her møder jeg: ");
                     npc.printHund2();
                     System.out.println("Vil du flyte Møllehuls hunden og tage indeholdet af kisten?");
                     System.out.println("Tast 1: Ja\nTast 2: nej");
                     valg = input.readInt();
+
                     if (valg == 1) {
                         System.out.println("Jeg blev spist af Møllehjulshunden!");
                         System.out.println("Hint: Læs teksten igennem næste gang!");
@@ -83,12 +88,15 @@ public class Tree extends Lokation{
                     } else if (valg == 2) {
                         fil.historie(40);
                     }
+
+
                     fil.historie(42);
                     System.out.println("Her møder jeg: ");
                     npc.printHund3();
                     System.out.println("Vil du flyte Rundetårn hunden og tage indeholdet af kisten?");
                     System.out.println("Tast 1: Ja\nTast 2: nej");
                     valg = input.readInt();
+
                     if (valg == 1) {
                         fil.historie(44);
                         fil.historie(45);
@@ -99,21 +107,28 @@ public class Tree extends Lokation{
                             System.out.println("Tast enter for at forsætte");
                             input.readString();
                         }
-                        done = true;
+                        endGame = true;
                     } else if (valg == 2) {
-                        System.out.println("Jeg Blev spidst af Rundetårn Hunden!");
+                        System.out.println("Jeg Blev spist af Rundetårn Hunden!");
                         break;
 
                     }
-            }
-            if (done == true){
+            }//<- Switch statetment slutter her.
+
+
+            //Vi har lavet en if/else.
+            //Hvis endGame bliver sat til true i linje 102 vil "if " kørere og stoppe programet ellers køre "else".
+            if (endGame == true){
                 break;
             }
             else {
-            System.out.println("Vil du genstarte? \nTast 1: Ja\nTast 2: Nej");
+
+                //Hver gang switch statement bliver breaket, vil den komme herned. Så du kan foretage nye valg.
+                System.out.println("Vil du genstarte? \nTast 1: Ja\nTast 2: Nej");
             int genstart = input.readInt();
             if (genstart == 1) {
-                System.out.println("Ok");
+                System.out.println("Spillet genstartes\nTryk enter for at starte");
+                input.readString();
             } else if (genstart == 2) {
                 koer = false;
                 System.out.println("Du har tabt");
